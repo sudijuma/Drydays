@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 767px;
+    height: 895px;
+    background-image: url("../images/full-bloom.png");
+    background-size: 15%;
+    margin: auto;
+  }
+  .header{
+    display: flex;
+    min-width: 414px;
+    min-height: 90px;
+  }
+  .logo{
+      min-width: 164px;
+      min-height: 88px;
+      background-image: url("../images/logo.png");
+  }
+  .nav{
+      justify-self: end;
+  }
+  .banner {
+    background-image: url("../images/bannersmall.png");
+    background-size: cover;
+    max-width: 600px;
+    max-height: 600px;
+  }
+  .sale {
+    position: relative;
+    top: 130px;
+    left: 40px;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    letter-spacing: 0%;
+    color: #ff6e05;
+    text-decoration: underline;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+  .shop1 {
+    display: flex;
+    background-image: url("../images/deskamn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  .shop2 {
+    display: flex;
+    background-image: url("../images/deskwoman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("../images/full-bloom.png");
+    background-size: 30%;
+    max-width: 1440px;
+    height: 71px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  body {
+    max-width: 1920px;
+    background-image: url("../images/full-bloom.png");
+    background-size: 20%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1920px;
+    min-height: 90px;
+  }
+  .logo{
+    min-width: 164px;
+    min-height: 88px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+  }
+  .nav{
+      margin-right: 0px;
+  }
+  .desk {
+    max-width: 1920px;
+    height: 49px;
+    background-color: #ff6e05;
+  }
+  h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+  }
+  .sale {
+    display: none; /*ill leave it here cause I have Q's*/
+  }
+
+  .banner {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    max-width: 1920px;
+    height: 600px;
+    margin-top: 0;
+  }
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .shop1 {
+    min-width: 200px;
+    min-height: 200px;
+    background-image: url("../images/deskamn.png");
+    background-size: cover;
+  }
+  .shop2 {
+    min-width: 200px;
+    min-height: 200px;
+    background-image: url("../images/deskwoman.png");
+    background-size: cover;
+  }
+}
