@@ -1,9 +1,9 @@
 body {
   max-width: 1920px;
-  max-height: 5000px;
+  max-height: auto;
   background-image: url("../images/full-bloom.png");
   background-size: 10%;
-}/*position aboslute, top zero */
+} /*position aboslute, top zero */
 .header {
   display: flex;
   height: 178px;
@@ -17,8 +17,10 @@ body {
   margin: auto;
 }
 main {
-    background-color: white;
-} 
+  background-color: white;
+  height: 5000px;
+  margin: auto;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -58,10 +60,14 @@ i {
   text-decoration: underline;
 }
 .sort {
-  margin-top: 25px;
-  display: flex;
-  justify-content: space-around;
-} /*make it stick*/
+  position: fixed;
+  margin: auto;
+  height: 26px;
+  max-width: 1920px;
+  display: inline-flex;
+  justify-content: space-evenly;
+
+}
 .sortby {
   display: flex;
   justify-content: space-between;
@@ -75,14 +81,18 @@ i {
   text-align: left;
   border-radius: 5px;
 }
+.forsale {
+    display: inline-flex;
+}
 .container {
-    display: grid;
-    grid-row: 4;
+    flex-wrap: wrap;
 }
 .jackets {
-    width: 256px;
-    height: 377px;
-    background-image: url("../images/jacket1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+  width: 231px;
+  height: 320px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  background-color: #1dcd79;
+  float: left;
 }
