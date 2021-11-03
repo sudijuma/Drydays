@@ -1,3 +1,88 @@
 body {
-    max-width: 1920px;
+  max-width: 1920px;
+  max-height: 5000px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 10%;
+}/*position aboslute, top zero */
+.header {
+  display: flex;
+  height: 178px;
+  max-width: 1920px;
+}
+.logo {
+  min-width: 164px;
+  min-height: 88px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  margin: auto;
+}
+main {
+    background-color: white;
+} 
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.shop {
+  height: 35px;
+  width: 100px;
+  border: 1px solid lightblue;
+  background-image: url("../images/full-bloom.png");
+  background-size: 50%;
+  border-radius: 10px;
+}
+.shop {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.icons {
+  margin-top: 10px;
+}
+.fas {
+  margin-right: 10px;
+}
+.promo {
+  max-width: 1920px;
+  height: 25px;
+  background-color: #f67517;
+}
+h1 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+i {
+  text-decoration: underline;
+}
+.sort {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+} /*make it stick*/
+.sortby {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  width: 256px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 50%;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+.container {
+    display: grid;
+    grid-row: 4;
+}
+.jackets {
+    width: 256px;
+    height: 377px;
+    background-image: url("../images/jacket1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
