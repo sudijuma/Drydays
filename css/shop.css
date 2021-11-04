@@ -3,6 +3,7 @@ body {
   max-height: auto;
   background-image: url("../images/full-bloom.png");
   background-size: 10%;
+  margin: auto;
 } /*position aboslute, top zero */
 .header {
   display: flex;
@@ -92,7 +93,15 @@ i {
   height: 320px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 25px;
-  background-color: #1dcd79;
+  margin-top: 25px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 50%;
   float: left;
+}
+.jackets {
+    background-image: url("../images/jacket1.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: auto;
+
 }
