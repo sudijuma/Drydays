@@ -83,12 +83,15 @@ i {
   border-radius: 5px;
 }
 .forsale {
+  margin-top: 50px;
     display: inline-flex;
 }
 .container {
     flex-wrap: wrap;
 }
 .jackets {
+  display: flex;
+  float: left;
   width: 231px;
   height: 320px;
   margin-right: 20px;
@@ -96,12 +99,13 @@ i {
   margin-top: 25px;
   background-image: url("../images/full-bloom.png");
   background-size: 50%;
-  float: left;
-}
-.jackets {
-    background-image: url("../images/jacket1.png");
-    background-size: 90%;
-    background-repeat: no-repeat;
-    margin: auto;
 
 }
+.info{
+  margin-top: 265px;
+  height: 50px;
+  width: 231px;
+  border: 2px solid black;
+  
+}
+
