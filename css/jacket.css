@@ -1,0 +1,28 @@
+body {
+    max-width: 1920px;
+    background-image: url("../images/full-bloom.png");
+    background-size: 20%;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    border: 2px solid black;
+}
+.logo {
+    height: 90px;
+    width: 167px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+}
+.nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    max-width: 1920px;
+}
+.shop {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
