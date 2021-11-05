@@ -44,20 +44,39 @@ main {
 }
 .display {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: space-around; /*fix so it looks good on mobile */
+    margin-top: 200px;
 }
 .specific {
+    display: inline-flexbox;
     width: 647px;
     height: 788px;
     border: 2px solid black;
-    background-color: blue;
+    background-image: url("../images/full-bloom.png");
+    background-size: 40%;
+}
+.fuckoff {
+    max-width: 647px;
+    height: 406px;
+    background-image: url("../images/jacket1.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.fuckoff:nth-child(2) {
+    height: 346px;
+    width: 341px;
+    float: right;
+}
+.fuckoff:nth-child(3) {
+    height: 346px;
+    width: 341px;
+    margin:auto;
 }
 .buyout{
     width: 516px;
     height: 788px;
     background-image: url("../images/full-bloom.png");
-    background-size: 20%;
+    background-size: 40%;
     border: 2px solid blue;
     float: right;
 }
