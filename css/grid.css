@@ -1,0 +1,57 @@
+body {
+  max-width: 1920px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 10%;
+  margin: auto;
+} /*position aboslute, top zero */
+header {
+  display: flex;
+  height: 178px;
+  max-width: 1920px;
+}
+.logo {
+  min-width: 164px;
+  min-height: 88px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+main {
+  height: 4000px;
+}
+.content {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+.jacket {
+  height: 400px;
+  background-color: blueviolet;
+  border: 1px blue solid;
+}
+.jacket-buy {
+  background-color: cadetblue;
+}
+.jacket-info {
+  background-color: chartreuse;
+  height: 200px;
+}
+.material {
+  display: flex;
+}
+.material-info {
+  margin: auto;
+  max-width: 1052px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+  justify-items: flex-end;
+}
