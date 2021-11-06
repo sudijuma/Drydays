@@ -43,40 +43,35 @@ main {
   margin-top: 10px;
 }
 .display {
-    display: flex;
-    justify-content: space-around; /*fix so it looks good on mobile */
-    margin-top: 200px;
+  display: flex;
+  justify-content: space-around; /*fix so it looks good on mobile */
+  margin-top: 200px;
 }
 .specific {
-    display: inline-flexbox;
-    width: 647px;
-    height: 788px;
-    border: 2px solid black;
-    background-image: url("../images/full-bloom.png");
-    background-size: 40%;
+  display: flex;
+  width: 647px;
+  height: 788px;
+  border: 2px solid black;
+  background-image: url("../images/full-bloom.png");
+  background-size: 40%;
 }
-.fuckoff {
-    max-width: 647px;
-    height: 406px;
-    background-image: url("../images/jacket1.png");
-    background-size: 40%;
-    background-repeat: no-repeat;
+.fuckoff {/*flex 1,2,3,4,5 med en pil som pekar ned och visar nästa bild*/
+  width: 250px;
+  height: 200px;
+  border: 2px solid blue;
 }
-.fuckoff:nth-child(2) {
-    height: 346px;
-    width: 341px;
-    float: right;
+.buyout {
+  display: flex;
+  width: 516px;
+  height: 788px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 40%;
+  border: 2px solid blue;
+  float: right;
 }
-.fuckoff:nth-child(3) {
-    height: 346px;
-    width: 341px;
-    margin:auto;
+.info {
+  height: 50px;
+  width: 516px;
+  border: 1px solid black;
 }
-.buyout{
-    width: 516px;
-    height: 788px;
-    background-image: url("../images/full-bloom.png");
-    background-size: 40%;
-    border: 2px solid blue;
-    float: right;
-}
+
