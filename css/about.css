@@ -16,31 +16,58 @@ header {
   background-repeat: no-repeat;
   margin: auto;
 }
-main {
-  height: 5000px;
-}
 .nav {
   display: flex;
   justify-content: space-around;
 }
+.shevin {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 96px;
+  font-style: italic;
+  color: gray;
+  letter-spacing: 50px;
+}
 .about {
-    display: flex;
-    margin-top: 500px;
-    margin: auto;   
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
 }
 .lorem {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+  display: flex;
+  width: 951px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 2px;
+  margin: auto;
 }
 .flexbox-items {
-    display: inline-flexbox;
-    margin-top: 100px;
-    max-width: 1920px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  max-width: 1920px;
 }
 .info-box {
-    flex-wrap: wrap;
-    max-width: 555px;
-    max-height: 483px;
+  margin: 40px;
+  max-width: 555px;
+  max-height: 483px;
 }
 .contact {
+  display: flex;
+  width: 600px;
+  margin-top: 60px;
+  margin: auto;
+}
+.contactinfo {
+  width: 234px;
+  height: 143px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 50%;
+  border: black 1px solid;
+  border-radius: 10px;
 }
