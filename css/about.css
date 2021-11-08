@@ -20,6 +20,9 @@ header {
   display: flex;
   justify-content: space-around;
 }
+main {
+  height: 3000px;
+}
 .shevin {
   display: flex;
   justify-content: center;
@@ -43,6 +46,7 @@ header {
   font-size: 24px;
   font-style: normal;
   letter-spacing: 2px;
+  word-spacing: 1px;
   margin: auto;
 }
 .flexbox-items {
@@ -57,10 +61,14 @@ header {
   max-width: 555px;
   max-height: 483px;
 }
+.kontakt {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .contact {
   display: flex;
   width: 600px;
-  margin-top: 60px;
   margin: auto;
 }
 .contactinfo {
@@ -70,4 +78,17 @@ header {
   background-size: 50%;
   border: black 1px solid;
   border-radius: 10px;
+  margin-left: 50px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reach {
+  display: flex;
+  margin: auto;
+}
+.media {
+  display: inline;
 }
