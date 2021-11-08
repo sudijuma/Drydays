@@ -45,6 +45,7 @@ main {
   display: flex;
 }
 .material-info {
+  display: flexbox;
   margin: auto;
   max-width: 1052px;
   background-image: url("../images/full-bloom.png");
@@ -53,5 +54,9 @@ main {
   font-size: 20px;
   font-style: italic;
   color: black;
-  justify-items: flex-end;
+}
+.diverse-info {
+  display: inline-flex ;
+  margin: auto;
+  max-width: 1052px;
 }

@@ -1,0 +1,46 @@
+body {
+  max-width: 1920px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 10%;
+  margin: auto;
+} /*position aboslute, top zero */
+header {
+  display: flex;
+  height: 178px;
+  max-width: 1920px;
+}
+.logo {
+  min-width: 164px;
+  min-height: 88px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  margin: auto;
+}
+main {
+  height: 5000px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.about {
+    display: flex;
+    margin-top: 500px;
+    margin: auto;   
+}
+.lorem {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.flexbox-items {
+    display: inline-flexbox;
+    margin-top: 100px;
+    max-width: 1920px;  
+}
+.info-box {
+    flex-wrap: wrap;
+    max-width: 555px;
+    max-height: 483px;
+}
+.contact {
+}
