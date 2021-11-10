@@ -87,8 +87,10 @@ main {
 }
 .reach {
   display: flex;
-  margin: auto;
+  justify-content: center;
+  margin-top: 150px;
 }
 .media {
   display: inline;
+  margin-left: 20px;
 }
