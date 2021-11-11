@@ -1,7 +1,7 @@
 body {
   min-width: 414px;
-  background-image: url("../images/full-bloom.png");
-  background-size: 20%;
+  background-color: #104843;
+  background-size: 10%;
   margin: auto;
 }
 header {
@@ -9,7 +9,15 @@ header {
   justify-content: center;
   min-height: 84px;
   min-width: 414px;
-  border: 1px solid black;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  min-height: 80px;
+  min-width: 392px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 40%;
+  border-radius: 5px;
 }
 .logo {
   height: 39px;
@@ -20,6 +28,7 @@ header {
   margin-top: 20px;
 }
 .promo {
+  margin-top: 4px;
   min-width: 414px;
   background-color: #ff6e05;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -55,13 +64,63 @@ header {
   margin-top: 20px;
 }
 .jacket {
+  display: flex;
   width: 392px;
   height: 171px;
   background-image: url("../images/full-bloom.png");
   background-size: 40%;
-  border: solid 1px black;
-  border-style: groove;
+  border-radius: 5px;
   margin: 4px 0px 4px 10px;
+}
+.card-shop {
+  min-width: 111px;
+  min-height: 171px;
+  background-image: url("../images/jacket2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.review {
+  color: #ff6e05;
+  display: inline-flex;
+  position: relative;
+  top: 110px;
+  left: 45px;
+}
+.far {
+  color: black;
+}
+.jacket-name {
+  position: relative;
+  left: 69px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  position: relative;
+  right: 22px;
+  top: 51px;
+}
+.price {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  position: relative;
+  top: 123px;
+  right: 190px;
+  margin: 0px;
+}
+.point-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 120px;
+  bottom: 30px;
+}
+.fa-hand-point-up {
+  color: #ff6e05;
 }
 footer {
   display: flex;
@@ -76,7 +135,7 @@ footer {
   body {
     min-width: 414px;
     background-image: url("../images/full-bloom.png");
-    background-size: 20%;
+    background-size: 10%;
     margin: auto;
   }
   header {
