@@ -56,13 +56,13 @@ main {
 }
 .review {
   display: flex;
+  justify-content: center;
   width: 400px;
   height: 100px;
-  margin-top: 200px;
+  margin-left: 40px;
   border: black 1px solid;
 }
 .name {
-  margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .star {
@@ -72,8 +72,6 @@ main {
   color: #ff6e05;
 }
 .price {
-  position: absolute;
-  margin-left: 300px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: underline;
 }
@@ -82,6 +80,39 @@ h5 {
 }
 .far {
   color: black;
+}
+.breadtext{
+  min-width: 200px;
+  
+}
+.add-to-basket {
+  margin: auto;
+  width: 200px;
+  height: 20px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 50%;
+  border: 1px black solid;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; 
+}
+.material {
+  display: flex;
+  justify-self: center;
+}
+.material-info {
+  max-width: 800px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+.diverse-info {
+  display: inline-flex ;
+  margin: auto;
+  max-width: 800px;
 }
 
 .buy-info {
