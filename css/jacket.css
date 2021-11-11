@@ -48,9 +48,46 @@ main {
   margin-top: 150px;
 }
 .jacket-display {
-  max-height: 788px;
-  max-width: 647px;
+  height: 500px;
+  width: 500px;
   border: solid 1px black;
   background-image: url("../images/full-bloom.png");
-  background-size: 70%;
+  background-size: 50%;
+}
+.review {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  margin-top: 200px;
+  border: black 1px solid;
+}
+.name {
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.star {
+  position: relative;
+  top: 50px;
+  left: 5px;
+  color: #ff6e05;
+}
+.price {
+  position: absolute;
+  margin-left: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.far {
+  color: black;
+}
+
+.buy-info {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 2px;
 }
