@@ -80,19 +80,26 @@ header {
   background-size: cover;
   background-position: center;
 }
+.info-container {
+  display: flex;
+  width: 275px;
+  height: 169px;
+}
 .review {
   color: #ff6e05;
   display: inline-flex;
   position: relative;
-  top: 110px;
-  left: 45px;
+  top: 140px;
+  left: 5px;
 }
 .far {
   color: black;
 }
 .jacket-name {
   position: relative;
-  text-align: center;
+  white-space: nowrap;
+  right: 80px;
+  top: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card-text {
@@ -105,23 +112,19 @@ header {
   right: 95px;
   top: 51px;
 }
-h2 {
-  text-decoration: wavy;
-  
-}
 .price {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   font-style: italic;
   position: relative;
-  top:25px;
-  right: 0px;
+  top: 138px;
+  right: 140px;
   margin: 0px;
 }
 .point-icon {
   position: relative;
-  left: 170px;
-  bottom: 15px;
+  right: 280px;
+  top: 80px;
 }
 .fa-hand-pointer {
   font-size: xx-large;
