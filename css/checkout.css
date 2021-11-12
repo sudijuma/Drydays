@@ -72,9 +72,6 @@ header {
   border-radius: 5px;
   margin: 4px 0px 4px 10px;
 }
-.jacket:nth-child(2){
-  
-}
 .card-shop {
   min-width: 111px;
   min-height: 171px;
@@ -82,9 +79,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.card-shop:nth-child(2) {
-  background-image: url("../images/jacket6.png");
 }
 .review {
   color: #ff6e05;
@@ -98,7 +92,7 @@ header {
 }
 .jacket-name {
   position: relative;
-  left: 69px;
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card-text {
@@ -106,7 +100,7 @@ header {
   font-size: 11px;
   font-style: italic;
   position: relative;
-  right: 22px;
+  right: 95px;
   top: 51px;
 }
 .price {
@@ -114,19 +108,14 @@ header {
   font-size: 18px;
   font-style: italic;
   position: relative;
-  top: 123px;
-  right: 190px;
+  top:25px;
+  right: 0px;
   margin: 0px;
 }
 .point-icon {
-  height: 20px;
-  width: 20px;
   position: relative;
   left: 120px;
-  bottom: 30px;
-}
-.fa-hand-point-up {
-  color: #ff6e05;
+  top: 0px;
 }
 footer {
   display: flex;
