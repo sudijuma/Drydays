@@ -60,7 +60,6 @@ header {
   background-image: url("../images/full-bloom.png");
   background-size: 40%;
   border: solid 1px black;
-  border-style: groove;
   margin: 4px 0px 4px 10px;
 }
 footer {
