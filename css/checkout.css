@@ -72,6 +72,9 @@ header {
   border-radius: 5px;
   margin: 4px 0px 4px 10px;
 }
+.jacket:nth-child(2){
+  
+}
 .card-shop {
   min-width: 111px;
   min-height: 171px;
@@ -79,6 +82,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.card-shop:nth-child(2) {
+  background-image: url("../images/jacket6.png");
 }
 .review {
   color: #ff6e05;
