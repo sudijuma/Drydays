@@ -48,6 +48,7 @@ main {
   margin-top: 150px;
 }
 .jacket-display {
+  display: flex;
   height: 500px;
   width: 500px;
   border: solid 1px black;
@@ -55,23 +56,27 @@ main {
   background-size: 50%;
 }
 .review {
-  display: flex;
-  justify-content: center;
-  width: 400px;
+  width: 1000px;
   height: 100px;
   margin-left: 40px;
   border: black 1px solid;
 }
 .name {
+  position: relative;
+  top: 15px;
+  left: 130px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .star {
   position: relative;
-  top: 50px;
-  left: 5px;
+  top: 40px;
+  right: 65px;
   color: #ff6e05;
 }
 .price {
+  position: relative;
+  top: 70px;
+  left: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: underline;
 }
@@ -82,11 +87,12 @@ h5 {
   color: black;
 }
 .breadtext{
+  position: relative;
+  top: 150px;
   min-width: 200px;
   
 }
 .add-to-basket {
-  margin: auto;
   width: 200px;
   height: 20px;
   background-image: url("../images/full-bloom.png");
