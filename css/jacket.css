@@ -48,28 +48,17 @@ main {
   margin-top: 150px;
 }
 .jacket-display {
-<<<<<<< HEAD
-  display: flex;
-  height: 500px;
-  width: 500px;
-=======
   max-height: 500px;
   max-width: 500px;
->>>>>>> 7f97ba30cedbe8e61f3dd68a6054025b683c34eb
   border: solid 1px black;
   background-image: url("../images/full-bloom.png");
   background-size: 50%;
 }
 .review {
-<<<<<<< HEAD
-  width: 1000px;
-  height: 100px;
-=======
   display: flex;
   justify-content: center;
   width: 392px;
   height: 171px;
->>>>>>> 7f97ba30cedbe8e61f3dd68a6054025b683c34eb
   margin-left: 40px;
   border: black 1px solid;
 }
@@ -98,16 +87,11 @@ h5 {
 .far {
   color: black;
 }
-<<<<<<< HEAD
 .breadtext{
   position: relative;
   top: 150px;
   min-width: 200px;
   
-=======
-.breadtext {
-  width: fit-content;
->>>>>>> 7f97ba30cedbe8e61f3dd68a6054025b683c34eb
 }
 .add-to-basket {
   width: 200px;
