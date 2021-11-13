@@ -55,6 +55,9 @@ header {
   background-size: 20%;
   border: 1px solid black;
 }
+.show-me {
+  display: inline-flexbox;
+}
 .slide {
   display: inline-flexbox;
   width: 414px;
