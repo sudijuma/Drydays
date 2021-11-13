@@ -1,0 +1,39 @@
+body {
+    min-width: 414px;
+    background-color: #104843;
+    background-size: 10%;
+    margin: auto;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    min-height: 84px;
+    min-width: 414px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    min-height: 80px;
+    min-width: 392px;
+    background-image: url("../images/full-bloom.png");
+    background-size: 40%;
+    border-radius: 5px;
+  }
+  .logo {
+    height: 39px;
+    width: 73px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  .promo {
+    margin-top: 4px;
+    min-width: 414px;
+    background-color: #ff6e05;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }

@@ -48,8 +48,8 @@ main {
   margin-top: 150px;
 }
 .jacket-display {
-  height: 500px;
-  width: 500px;
+  max-height: 500px;
+  max-width: 500px;
   border: solid 1px black;
   background-image: url("../images/full-bloom.png");
   background-size: 50%;
@@ -57,8 +57,8 @@ main {
 .review {
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 100px;
+  width: 392px;
+  height: 171px;
   margin-left: 40px;
   border: black 1px solid;
 }
@@ -81,9 +81,8 @@ h5 {
 .far {
   color: black;
 }
-.breadtext{
-  min-width: 200px;
-  
+.breadtext {
+  width: fit-content;
 }
 .add-to-basket {
   margin: auto;
@@ -94,7 +93,7 @@ h5 {
   border: 1px black solid;
   border-radius: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center; 
+  text-align: center;
 }
 .material {
   display: flex;
@@ -110,7 +109,7 @@ h5 {
   color: black;
 }
 .diverse-info {
-  display: inline-flex ;
+  display: inline-flex;
   margin: auto;
   max-width: 800px;
 }
