@@ -16,9 +16,6 @@
     min-height: 88px;
     background-image: url("../images/logo.png");
   }
-  .nav {
-    justify-self: end;
-  }
   .banner {
     background-image: url("../images/bannersmall.png");
     background-size: cover;
@@ -60,6 +57,7 @@
     background-size: 30%;
     max-width: 1440px;
     height: 71px;
+    border: 1px solid black;
   }
 }
 @media screen and (max-width: 1920px) {
@@ -83,7 +81,7 @@
   }
   .desk {
     max-width: 1920px;
-    height: 49px;
+    height: 25px;
     background-color: #ff6e05;
   }
   h2 {

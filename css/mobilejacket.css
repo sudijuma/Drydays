@@ -1,9 +1,17 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("");
+}
 body {
   min-width: 414px;
   background-color: white;
   background-size: 10%;
   margin: auto;
 }
+div{
+  font-family: 'poppins';
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -55,12 +63,12 @@ header {
   background-size: 20%;
   border: 1px solid black;
 }
-.show-me {
-  display: inline-flexbox;
+.text {
+  display: flex;
 }
 .slide {
   display: inline-flexbox;
-  width: 414px;
+  min-width: 414px;
   height: 670px;
   margin: auto;
   margin-top: 100px;
@@ -81,7 +89,8 @@ header {
 }
 .fa-hand-pointer {
   float: right;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: 30px;
   font-size: xx-large;
   height: fit-content;
 }
@@ -93,34 +102,42 @@ header {
 }
 .jacket-text {
   display: flex;
+  min-width: 414px;
   margin-top: 21px;
-  font-size: 18px;
+  font-size: 0,5em;
   white-space: nowrap;
+  text-align: start;
 }
+.text {
+  display: flex;
+  min-width: 380px;
+}
+.call-to-action {
+  display: flex;
+  min-width: 414px;
+  justify-content:space-between;
+  align-content: flex-start;
+  margin-top: 60px;
+} 
 .price {
   display: flex;
-  height: 25px;
-  width: 60px;
-  background-image: url("../images/full-bloom.png");
-  background-size: 20%;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: x-large;
+  justify-content: center;
+  align-content: center;
+  height: 30px;
+  width: fit-content;
+  font-size: xx-large;
 }
 .add-to-basket {
   display: flex;
-  justify-content: center;
-  width: 145px;
-  height: 19px;
-  background-color: #00ffe8;
+  width: 180px;
+  height: 25px;
+  background-color: #0FA958;
   color: black;
   white-space: nowrap;
   border: 1px solid black;
   border-radius: 5px;
-  font-size: 14px;
+  justify-content: center;
+  font-size: inherit;
   font-weight: bold;
 }
-.call-to-action {
-  display: flex;
-  justify-content: center;
-}
+
