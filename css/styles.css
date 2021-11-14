@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("https://fonts.google.com/specimen/Poppins");
+}
 @media screen and (max-width: 768px) {
   body {
     max-width: 767px;

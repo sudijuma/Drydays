@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Poppins', sans-serif;
-  src: url("");
+  src: url("https://fonts.google.com/specimen/Poppins");
 }
 body {
   min-width: 414px;
@@ -67,7 +67,6 @@ header {
   display: flex;
 }
 .slide {
-  display: inline-flexbox;
   min-width: 414px;
   height: 670px;
   margin: auto;
@@ -94,23 +93,19 @@ header {
   font-size: xx-large;
   height: fit-content;
 }
-.h2 {
+.about {
   display: flex;
-  margin-top: 10px;
-  white-space: nowrap;
+  align-content: center;
+  margin-top: 20px;
+}
+.lorem {
+  display: flex;
+  width: 951px;
   font-size: 24px;
-}
-.jacket-text {
-  display: flex;
-  min-width: 414px;
-  margin-top: 21px;
-  font-size: 0,5em;
-  white-space: nowrap;
-  text-align: start;
-}
-.text {
-  display: flex;
-  min-width: 380px;
+  font-style: normal;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  margin: auto;
 }
 .call-to-action {
   display: flex;

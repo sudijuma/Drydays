@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("https://fonts.google.com/specimen/Poppins");
+}
 body {
   min-width: 414px;
   background-color: #104843;
   background-size: 10%;
   margin: auto;
+}
+div{
+  font-family: 'poppins';
 }
 header {
   display: flex;
@@ -20,18 +27,18 @@ header {
   border-radius: 5px;
 }
 .logo {
-  height: 39px;
-  width: 73px;
+  height: auto;
+  width: 100%;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 20px;
+  background-size: contain;
+  background-position: center;
+  margin-top: 5px;
 }
 .promo {
   margin-top: 4px;
   min-width: 414px;
   background-color: #ff6e05;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-weight: bold;
   text-align: center;
@@ -52,7 +59,6 @@ header {
   background-image: url("../images/full-bloom.png");
   background-size: 50%;
   border: 1px solid black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-align: left;
   border-radius: 5px;
@@ -100,12 +106,10 @@ header {
   white-space: nowrap;
   right: 80px;
   top: 0px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card-text {
   border: #ff6e05 1px solid;
   text-align: start;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 8px;
   font-style: italic;
   position: relative;
@@ -113,7 +117,6 @@ header {
   top: 51px;
 }
 .price {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   font-style: italic;
   position: relative;
@@ -138,9 +141,9 @@ footer {
   background-size: 20%;
   border: black 1px solid;
 }
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 620px) {
   body {
-    max-width: 1500px;
+    max-width: 1920px;
     background-image: url("../images/full-bloom.png");
     background-size: 10%;
     margin: auto;
@@ -196,6 +199,8 @@ footer {
     margin-top: 20px;
   }
   .jacket {
+    display: flex;
+    float: left;
     width: 256px;
     height: 377px;
     background-image: url("../images/full-bloom.png");

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.google.com/specimen/Poppins");
+}
 body {
   max-width: 1920px;
   background-image: url("../images/full-bloom.png");
@@ -53,7 +57,6 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
-
 .sort {
   display: flex;
   justify-content: space-evenly;
@@ -138,4 +141,72 @@ h1 {
 .forsale {
   display: flex;
   margin: auto;
+}
+@media screen and (min-width: 620px) {
+  .forsale {
+    margin-top: 50px;
+    display: inline-flex;
+  }
+  .container {
+    justify-content: center;
+  }
+  .jackets {
+    display: flex;
+    float: left;
+    width: 231px;
+    height: 320px;
+    margin: 10px;
+    background-image: url("../images/full-bloom.png");
+    background-size: 50%;
+  }
+
+  .info {
+    display: inline-flexbox;
+    margin-top: 265px;
+    height: 50px;
+    width: 231px;
+    border-top: 1px solid black;
+  }
+  .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 0;
+  }
+  .color {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0;
+  }
+  .price {
+    justify-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  .icon {
+    position: relative;
+    top: -17px;
+    float: right;
+    margin: 0px;
+    margin-right: 15px;
+  }
+  .fa-heart {
+    float: right;
+    margin-right: 15px;
+    margin-top: -42px;
+  }
+  .forsale {
+    display: flex;
+    margin: auto;
+  }
 }

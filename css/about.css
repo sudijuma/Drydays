@@ -1,9 +1,16 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.google.com/specimen/Poppins");
+}
 body {
   max-width: 1920px;
   background-image: url("../images/full-bloom.png");
   background-size: 10%;
   margin: auto;
 } /*position aboslute, top zero */
+div {
+  font-family: "poppins";
+}
 header {
   display: flex;
   height: 178px;
@@ -20,19 +27,19 @@ header {
   display: flex;
   justify-content: space-around;
 }
+.icons {
+  font-size: x-large;
+}
 main {
   height: 3000px;
 }
 .shevin {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-left: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 96px;
   font-style: italic;
   color: gray;
-  letter-spacing: 50px;
+  letter-spacing: 1rem;
 }
 .about {
   display: flex;
@@ -42,7 +49,6 @@ main {
 .lorem {
   display: flex;
   width: 951px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
   font-style: normal;
   letter-spacing: 2px;
@@ -58,38 +64,48 @@ main {
 }
 .info-box {
   display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
   margin: 40px;
   max-width: 555px;
   max-height: 483px;
 }
+.text-container {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 2em;
+}
 .kontakt {
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .contact {
   display: flex;
-  width: 600px;
-  margin: auto;
+  justify-content: center;
 }
 .contactinfo {
   width: 234px;
-  height: 143px;
+  height: 200px;
   background-image: url("../images/full-bloom.png");
   background-size: 50%;
-  border: black 1px solid;
   border-radius: 10px;
-  margin-left: 50px;
+  margin: 4px;
+}
+.social-contact{
+  width: 100%;
+  height: auto;
 }
 .social {
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
 }
 .reach {
   display: flex;
+  margin-top: 100px;
   justify-content: center;
-  margin-top: 150px;
 }
 .media {
   display: inline;
