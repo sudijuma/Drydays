@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   src: url("https://fonts.google.com/specimen/Poppins");
 }
 body {
@@ -8,8 +8,8 @@ body {
   background-size: 10%;
   margin: auto;
 }
-div{
-  font-family: 'poppins';
+div {
+  font-family: "poppins";
 }
 header {
   display: flex;
@@ -79,34 +79,36 @@ header {
   border: solid 1px black;
   margin: 4px 0px 10px 20px;
 }
+.jacket2 {
+  width: 100%;
+}
 .card-shop {
-  min-width: 111px;
-  min-height: 171px;
-  background-image: url("../images/jacket2.png");
+  margin-top: 30px;
+  background-image: url("../images/full-bloom.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .info-container {
   display: flex;
-  width: 275px;
-  height: 169px;
+  width: 280px;
+  height: 170px;
 }
 .review {
   color: #ff6e05;
   display: inline-flex;
   position: relative;
-  top: 140px;
-  left: 5px;
+  top: 80px;
+  left: 20px;
 }
 .far {
   color: black;
 }
 .jacket-name {
-  position: relative;
   white-space: nowrap;
-  right: 80px;
-  top: 0px;
+  position: relative;
+  top: 1px;
+  right: 70px;
 }
 .card-text {
   border: #ff6e05 1px solid;
@@ -118,17 +120,16 @@ header {
   top: 51px;
 }
 .price {
-  font-size: 18px;
-  font-style: italic;
   position: relative;
-  top: 138px;
-  right: 140px;
-  margin: 0px;
+  top: 80px;
+  right: 300px;
+  font-size: 1em;
+  font-style: italic;
 }
 .point-icon {
   position: relative;
-  right: 280px;
-  top: 80px;
+  top: 100px;
+  right: 150px;
 }
 .fa-hand-pointer {
   font-size: xx-large;
@@ -188,7 +189,6 @@ footer {
     background-image: url("../images/full-bloom.png");
     background-size: 50%;
     border: 1px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: left;
     border-radius: 5px;
@@ -202,12 +202,71 @@ footer {
   .jacket {
     display: flex;
     float: left;
-    width: 256px;
-    height: 377px;
+    width: 231px;
+    height: 320px;
     background-image: url("../images/full-bloom.png");
     background-size: 40%;
     border: solid 1px black;
     margin: 4px 0px 10px 20px;
+  }
+  .card-shop {
+    position: relative;
+    left: 50px;
+    width: 231px;
+    height: 220px;
+  }
+  .jacket2 {
+    height: auto;
+    width: 100%;
+  }
+  .info-container {
+    display: flex;
+    position: relative;
+    top: 220px;
+    right: 110px;
+    width: 230px;
+    height: 100px;
+  }
+  .review {
+    color: #ff6e05;
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+    right: 50px;
+
+  }
+  .far {
+    color: black;
+  }
+  .jacket-name {
+    position: relative;
+    white-space: nowrap;
+    right: 80px;
+    top: 0px;
+    font-size: x-small;
+  }
+  .card-text {
+    border: #ff6e05 1px solid;
+    text-align: start;
+    font-size: 8px;
+    font-style: italic;
+    position: relative;
+    right: 95px;
+    top: 51px;
+  }
+  .price {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0px;
+  }
+  .point-icon {
+    display: none;
+    position: relative;
+    right: 280px;
+    top: 80px;
+  }
+  .fa-hand-pointer {
+    font-size: xx-large;
   }
   footer {
     display: flex;
