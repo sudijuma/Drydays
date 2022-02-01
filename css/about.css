@@ -66,7 +66,6 @@ main {
   display: flex;
   position: relative;
   text-align: center;
-  color: white;
   margin: 40px;
   max-width: 555px;
   max-height: 483px;
@@ -76,6 +75,7 @@ main {
   bottom: 5px;
   left: 10px;
   font-size: 2em;
+  color: white;
 }
 .kontakt {
   display: flex;
