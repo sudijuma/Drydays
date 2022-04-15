@@ -68,57 +68,5 @@
   body {
     max-width: 1920px;
     background-image: url("../images/full-bloom.png");
-    background-size: 20%;
+    background-size: 10%;
   }
-
-  .header {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1920px;
-    min-height: 90px;
-  }
-  .logo {
-    min-width: 164px;
-    min-height: 88px;
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-  }
-  .desk {
-    max-width: 1920px;
-    height: 15px;
-    background-color: #ff6e05;
-  }
-  h2 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
-    font-style: italic;
-  }
-  .sale {
-    display: none; /*ill leave it here cause I have Q's*/
-  }
-
-  .banner {
-    background-image: url("../images/background.png");
-    background-size: cover;
-    max-width: 1920px;
-    height: 600px;
-    margin-top: 0;
-  }
-  .content {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .shop1 {
-    min-width: 200px;
-    min-height: 200px;
-    background-image: url("../images/deskamn.png");
-    background-size: cover;
-  }
-  .shop2 {
-    min-width: 200px;
-    min-height: 200px;
-    background-image: url("../images/deskwoman.png");
-    background-size: cover;
-  }
-}
