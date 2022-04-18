@@ -1,68 +1,22 @@
+*{
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'Poppins', sans-serif;
   src: url("https://fonts.google.com/specimen/Poppins");
 }
-@media screen and (max-width: 768px) {
-  body {
-    max-width: 767px;
-    height: 895px;
-    background-image: url("../images/full-bloom.png");
-    background-size: 15%;
-    margin: auto;
-  }
-  .header {
-    display: flex;
-    min-width: 414px;
-    min-height: 90px;
-  }
-  .logo {
-    min-width: 164px;
-    min-height: 88px;
-    background-image: url("../images/logo.png");
-  }
-  .banner {
-    background-image: url("../images/bannersmall.png");
-    background-size: cover;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .sale {
-    position: relative;
-    top: 130px;
-    left: 40px;
-    font-size: 3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: bold;
-    letter-spacing: 0%;
-    color: #ff6e05;
-    text-decoration: underline;
-  }
-  .content {
-    display: flex;
-    justify-content: center;
-  }
-  .shop1 {
-    display: flex;
-    background-image: url("../images/deskamn.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-  }
-  .shop2 {
-    display: flex;
-    background-image: url("../images/deskwoman.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("../images/full-bloom.png");
-    background-size: 30%;
-    max-width: 1440px;
-    height: 71px;
-    border: 1px solid black;
-  }
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+.header-main{
+  height: 100px;
+  background-color: white;
+}
+.promo{
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1920px) {
   body {
@@ -70,3 +24,4 @@
     background-image: url("../images/full-bloom.png");
     background-size: 10%;
   }
+}
