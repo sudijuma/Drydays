@@ -9,8 +9,8 @@ async function displayJackets(){
         for (let i = 0; i < productResponse.length; i++) {
             productDisplay.innerHTML +=`      <div class="featured-products-item">
             <div class="featured-products-item-image"></div>
-            <p class="title">${productResponse[i].id}</p>
-            <p class="description">${productResponse[i].description}</p>
+            <p class="title">${productResponse[i].images.thumbnail}</p>
+            <p class="description">${productResponse[i].name}</p>
             <p class="price">from 298kr</p>
             <button>view item</button>
           </div>`
