@@ -13,7 +13,7 @@ async function displayJackets(){
             <p class="description">${productResponse[i].description}</p>
             <p class="price">from 298kr</p>
             <button>view item</button>
-          </div>"`
+          </div>`
         }
     }catch (e) {
         console.log(e)
