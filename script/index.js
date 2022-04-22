@@ -1,4 +1,4 @@
-const API_URL = "https://freezing-locket.flywheelsites.com/wp-json/wc/store/products";
+const API_URL = "https://mwakie.flywheelsites.com/wp-json/wc/store/products";
 
 const productDisplay = document.querySelector(".featured-products")
 
