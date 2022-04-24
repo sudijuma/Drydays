@@ -143,6 +143,7 @@ body {
 
 .featured-products-item>.price {
   font-style: italic;
+  margin-top: 65px;
 }
 
 button {
