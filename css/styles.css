@@ -131,10 +131,14 @@ body {
 .featured-products-item>.title {
   font-size: 20px;
   font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
 }
 
-.featured-products-item>.description {
+.featured-products-item>.short-description {
   color: #666;
+  background-color: white;
+
 }
 
 .featured-products-item>.price {
