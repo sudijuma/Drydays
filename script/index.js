@@ -3,8 +3,8 @@ const queryString = window.location.search;
 
 const params = new URLSearchParams(queryString);
 console.log(params.get("id"));
-const productID = params.get("id"); */
-
+const productID = params.get("name");
+ */
 const API_URL = `https://mwakie.flywheelsites.com/wp-json/wc/store/products/`;
 console.log(API_URL);
 
