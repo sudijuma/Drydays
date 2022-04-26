@@ -20,7 +20,7 @@ async function displayJackets() {
             <p class="title"></p>
             <p class="short-description"></p>
             <p class="price">${productResponse[i].prices.price}kr</p>
-            <button onclick="location.href='/specific.html?=${productResponse[i].id}'">view item</button>
+            <button onclick="location.href='/specific.html?=${productResponse[i].name}'">view item</button>
           </div>`;
     }
   } catch (e) {
