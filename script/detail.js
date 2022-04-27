@@ -2,9 +2,9 @@ const queryString = document.location.search;
 
 const params = new URLSearchParams(queryString);
 
-const productID = params.get("name");
+const productID = params.get("id");
 
-const API_URL = `https://mwakie.flywheelsites.com/wp-json/wc/store/products/?=${productID}`;
+const API_URL = `https://mwakie.flywheelsites.com/wp-json/wc/store/products/${productID}`;
 console.log(API_URL);
 const productDisplay = document.querySelector(".featured-products");
 
