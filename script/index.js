@@ -6,6 +6,7 @@ async function displayJackets() {
     const productCall = await fetch(API_URL);
     const productResponse = await productCall.json();
     for (let i = 0; i < productResponse.length; i++) {
+      console.log(productResponse[i])
       productDisplay.innerHTML += `<div class="featured-products-item">
             <div class="featured-products-item-image-box"><img src="${productResponse[i].images[0].src}"></div>
             <p class="title">${productResponse[i].name}</p>
