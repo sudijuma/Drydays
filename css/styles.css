@@ -94,7 +94,7 @@ body {
   max-width: 1220px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 5px
 }
 
@@ -126,6 +126,7 @@ body {
   background-image: url('../images/full-bloom.png');
   background-size: 35%;
   height: fit-content;
+  width: fit-content;
 }
 
 .featured-products-item-image-box {
@@ -175,3 +176,8 @@ button {
     background-size: 10%;
   }
 } */
+
+.styled {
+  display: block;
+  justify-content: center;
+}
