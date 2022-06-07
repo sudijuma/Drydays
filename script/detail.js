@@ -18,3 +18,6 @@ async function displayJackets() {
   }
 }
 displayJackets(); 
+
+const space_api = "https://api.nasa.gov/planetary/apod?api_key=bQda8zxBMGQUcbPIvQRKVczRhCkq1bJJDy5Jiq6V";
+console.log(space_api);
