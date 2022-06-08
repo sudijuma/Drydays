@@ -17,7 +17,18 @@ async function displayJackets() {
   } catch (e) {
   }
 }
-displayJackets(); 
+displayJackets();
 
 const space_api = "https://api.nasa.gov/planetary/apod?api_key=bQda8zxBMGQUcbPIvQRKVczRhCkq1bJJDy5Jiq6V";
 console.log(space_api);
+async function nasagasa() {
+  try {
+    const giveMeNasa = await fetch(space_api);
+    const nasaData = await giveMeNasa.json();
+    console.log(nasaData)
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+nasagasa();
