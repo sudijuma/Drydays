@@ -95,7 +95,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 5px
+  gap: 20px;
 }
 
 @media(max-width: 1000px) {
@@ -130,10 +130,12 @@ body {
 }
 
 .featured-products-item-image-box {
-  margin-top: 2vh;
+  margin-top: 1vh;
   height: 250px;
   width: 250px;
-
+}
+.image{
+  object-fit: contain;
 }
 
 .featured-products-item>.title {
@@ -153,7 +155,6 @@ body {
 
 .featured-products-item>.price {
   font-style: italic;
-  margin-top: 65px;
 }
 
 button {
