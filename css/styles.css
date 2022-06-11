@@ -34,12 +34,12 @@ body {
   font-weight: 300;
 }
 
-/* .promo {
-  width: 100%;
-  height: 50px;
-  background-color: orange;
+.hero-banner {
   margin: 0 auto;
-} */
+  height: 10vh;
+  width: 45vw;
+  border: 1px solid black;
+}
 
 .homepage-categories {
   max-width: 1200px;
