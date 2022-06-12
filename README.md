@@ -22,7 +22,7 @@ I built this project using:
 - Javascript
 
 ## Getting Started
-# Installing
+Installing
 Clone this repo and start it with live server.
 1. clone the repo
 
