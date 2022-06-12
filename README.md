@@ -2,7 +2,7 @@
 ![image](https://github.com/sudijuma/Drydays/blob/main/images/herobannerxl.png)
 
 ## Description
-This project is meant to showcase our aquired skills in design, html, CSS and javascript. It started out with being tasked to design
+This project is here to showcase my aquired skills in design, html, CSS and javascript. It started out with being tasked to design
 our project and then implementing it with javascript. Because it is a cross-course project it got built upon over time and the project finnished with some API calls and basic javascript functions.
 
 ## Built with
