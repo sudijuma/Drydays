@@ -1,5 +1,5 @@
 # My first HTML and CSS website (under contruction)
-![image](https://github.com/sudijuma/Drydays/blob/main/images/herobannerxl.png)
+![image](https://github.com/sudijuma/Drydays/blob/main/images/Drydays-crop.png)
 
 ## Description
 
