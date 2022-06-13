@@ -36,9 +36,17 @@ body {
 
 .hero-banner {
   margin: 0 auto;
-  height: 10vh;
-  width: 45vw;
   border: 1px solid black;
+  max-width: 550px;
+/*   background-image: url(/images/new-images/herobanner/girl-in-rain.png);
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.banner-image{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 .homepage-categories {
@@ -46,8 +54,6 @@ body {
   margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
-  background-image: url("../images/full-bloom.png");
-  background-size: 15%;
 }
 
 .homepage-category-item {
@@ -55,9 +61,13 @@ body {
   flex-basis: 0;
   min-width: 33.33%;
   border: 2px solid black;
-  height: 300px;
+  height: 150px;
   background-size: cover;
   background-position: center;
+  margin: 8px;
+  background-image: url("../images/full-bloom.png");
+  background-size: 15%;
+  margin: 0 auto;
 }
 
 .category-text {
@@ -134,7 +144,8 @@ body {
   height: 250px;
   width: 250px;
 }
-.image{
+
+.image {
   object-fit: contain;
 }
 
